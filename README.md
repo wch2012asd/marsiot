@@ -5,7 +5,7 @@ www.marsiot.com
 
  配置开发包中的相关参数
 1. 打开并编辑目录下的config.propetites文件
-2. 修改 site.token=399e0331-373b-4ba2-9e4f-2263045fa0e9
+2. 修改 site.token=你的SITE TOKEN（登录火星互联控制台后获取）
 3. 修改 model.name=你的设备型号
 4. 修改 model.description=设备型号的描述
 
