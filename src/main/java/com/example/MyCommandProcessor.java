@@ -37,7 +37,7 @@ public class MyCommandProcessor extends BaseCommandProcessor {
         switch (ack.getState()) {
             case NEW_REGISTRATION: 
             case ALREADY_REGISTERED: {
-                System.out.print("Devide("+mHardwareId+") model("+getModelName()+") registered ok!\n\n");
+                System.out.print("Device("+mHardwareId+") model("+getModelName()+") registered ok!\n\n");
                 onRegistrationConfirmed(ack);
                 break;
             }
